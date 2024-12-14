@@ -20,7 +20,7 @@
         <script>
             const screenshotImg = document.getElementById("screenshot");
             const statusText = document.getElementById("status");
-            const ws = new WebSocket("wss://sangyoon.duckdns.org/ws");
+            const ws = new WebSocket("wss://<your_domain>/ws");
 
             // WebSocket Event Listeners
             ws.onopen = () => {
@@ -38,7 +38,7 @@
             // 스크린샷을 가져오는 함수
             async function fetchScreenshot() {
                 try {
-                    const response = await fetch("https://sangyoon.duckdns.org/screenshot");
+                    const response = await fetch("https://<your_domain>/screenshot");
                     if (!response.ok) {
                         throw new Error(`HTTP error! Status: ${response.status}`);
                     }
