@@ -108,6 +108,6 @@ if __name__ == "__main__":
         app,
         host="0.0.0.0",
         port=443,  # HTTPS 기본 포트
-        ssl_keyfile="c:\\Users\\songs\\sangyoon.duckdns.org\\private.key",  # SSL 키 파일 경로
-        ssl_certfile="c:\\Users\\songs\\sangyoon.duckdns.org\\certificate.crt"  # SSL 인증서 파일 경로
+        ssl_keyfile="",  # SSL 키 파일 경로
+        ssl_certfile=""  # SSL 인증서 파일 경로
     )
