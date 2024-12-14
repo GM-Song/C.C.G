@@ -3,11 +3,11 @@ SOFTWARE AND AI BUSINESS APPLICATION DESIGN 프로젝트: Crowdsourced Cloud Gam
 
 
 ## 랜딩 페이지 호스팅하기
-1. html5up-hyperspace_modified 폴더를 다운받아서 Netlify에 업로드.
+1. html5up-hyperspace_modified 폴더를 다운받아서 Netlify에 업로드
 
 ## 랜딩 기록하기
 구글 앱스크립트를 백엔드로, 구글 스프레드시트를 DB로 사용한다.
-1. Googel_Spread_Sheet.xlsx의 형식대로 본인의 구글 드라이브에 스프레드시트 생성.
+1. Googel_Spread_Sheet.xlsx의 형식대로 본인의 구글 드라이브에 스프레드시트 생성
 2. Google_Apps_Script 코드에서 상단의 <your_google_spread_sheet_url> 부분을 수정
 3. 본인 구글 드라이브에 앱스크립트 프로젝트를 생성해서 코드를 복사하고 배포
 4. 랜딩 페이지 index.html의 <your_google_apps_script_deployment_url> 부분을 앱스크립트 배포 url로 수정
