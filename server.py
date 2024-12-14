@@ -17,7 +17,7 @@ screen_size = 0.5  # 스크린샷 크기 비율
 # CORS 설정
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://crowdsourcedcloudgaming.netlify.app"],  # 신뢰할 수 있는 도메인만 허용
+    allow_origins=["https://<your Netlify landing page url>"],  # 신뢰할 수 있는 도메인만 허용
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
