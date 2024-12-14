@@ -351,7 +351,7 @@
 				$(document).ready(function () {
 					
 					$.ajax({
-					    url: '<your google apps script deployment url>'+'?action=insert&table=visitors&data='+data,
+					    url: '<your_google_apps_script_deployment_url>'+'?action=insert&table=visitors&data='+data,
 					    dataType: 'jsonp',
 					    success: function (data) {
 						console.log('성공 - ', JSON.stringify(data));
@@ -384,7 +384,7 @@
 							"advice": advice
 						})
 				
-						axios.get('<your google apps script deployment url>'+'?action=insert&table=registration&data=' + finalData)
+						axios.get('<your_google_apps_script_deployment_url>'+'?action=insert&table=registration&data=' + finalData)
 							.then(response => {
 							$.busyLoadFull("hide");
 							$.fn.simplePopup({ type: "html", htmlSelector: "#popup" });
