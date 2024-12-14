@@ -2,7 +2,7 @@ function doGet(req) {
 
 				// return ContentService.createTextOutput(JSON.stringify(req));
 			      
-			       var SHEET_URL = "https://docs.google.com/spreadsheets/d/1XB-_X3tud5Jaa0ri5D30OjuGsiW8-J16Dk195HLsEAI/edit"
+			       var SHEET_URL = "<your google spread sheet url>"
 			       var SHEET_ID = "...."
 			       var action    = req.parameter.action;
 			       var table_req = req.parameter.table;
